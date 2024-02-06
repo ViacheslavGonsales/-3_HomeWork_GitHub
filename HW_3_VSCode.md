@@ -66,6 +66,6 @@ git branch name - создание ветки
 + git init - инициировал
 + git add название_файла.md
 + git commit -m "Описание коммита"
-+ git remote add origin имя_файла.md
++ git remote add origin ссылка_с_github
 + git branch -M master
 + git push -u origin master
