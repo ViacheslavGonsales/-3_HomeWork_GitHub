@@ -52,3 +52,20 @@ git init - иницыализация git
 git branch - выводит ветки
 branch
 git branch name - создание ветки
+
+## Команды для работы локального и удалённого репозитория
+
+* git push - загрузить репозиторий на сайт
+* git pull - скачать репозиторий с сайта
+* git clone - сделать копию репозитория
+
+## Команды и алгоритм добавления локального репозитория в удалённый
+
++ Open Folder - добавил папку
++ New File - добаил файл
++ git init - инициировал
++ git add название_файла.md
++ git commit -m "Описание коммита"
++ git remote add origin имя_файла.md
++ git branch -M master
++ git push -u origin master
